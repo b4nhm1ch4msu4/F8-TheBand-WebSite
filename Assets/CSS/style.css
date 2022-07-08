@@ -1,0 +1,239 @@
+/* CSS reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+    1. vị trí
+    2. kích thước
+    3. màu sắc
+    4. kiểu dáng ( kiểu chữ, hình tròn, vuông, tam giác, ...)
+ */
+ 
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important; 
+}
+
+#wrapper {
+
+}
+
+#header {
+    height: 46.5px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav .nav-down-arrow {
+    font-size: 12px;
+}
+
+#header .search-button {
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-button:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46.5px;
+}
+
+.subnav li a:hover,
+#nav > li:hover > a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav{
+    display:  none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: white;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.3);
+    min-width: 160px;
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38.5px;
+}
+
+/* #nav .subnav li {
+    width: 100%;
+} */
+
+#Slider {
+    position: relative;
+    margin-top: 46.5px;
+    padding-top: 50%;
+    background: url(/W3-template-WebSide/Assets/Img/chicago.jpg) top center / cover no-repeat;
+}
+
+#Slider .text-content {
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+    width: 100%;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    text-align: center;
+}
+
+#Slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#Slider .text-decreption {
+    font-size: 15px;
+}
+
+#Content {
+
+}
+
+#Content .tour-section {
+    background-color: #000;
+}
+
+#Content .section-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#Content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-align: center;
+    
+}
+
+#Content .section-sub-heading {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    margin: 25px 0;
+    opacity: 0.6;
+}
+
+#Content .about-text {
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 15px;
+    margin: 25px 0;
+}
+
+#Content .bandmembers {
+    margin-top:48px;
+    o
+}
+
+#Content .member {
+    width: 33.33333%;
+    float : left;
+    text-align : center;
+}
+
+#Content .name {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+#Content .menber-img {
+    width: 154px;
+    border-radius: 4px;
+}
+
+#Content .book-ticket-list {
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.book-ticket-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+    list-style: none;
+}
+
+.book-ticket-list .sold-out {
+    background-color: #f44336;
+    padding: 3px 4px;
+    color: #fff;
+    margin-left: 16px;
+}
+
+.book-ticket-list .tickets-number {
+    
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+}
+
+#footer {
+
+}
