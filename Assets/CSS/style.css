@@ -187,7 +187,7 @@ html {
 
 #Content .bandmembers {
     margin-top:48px;
-    o
+    
 }
 
 #Content .member {
@@ -317,6 +317,7 @@ line-height: 1.4;
     display: flex;
 }
 
+
 .modal-close {
     position: absolute;
     right: 0;
@@ -348,6 +349,7 @@ line-height: 1.4;
     width: 900px;
     min-height: 200px;
     max-width: calc(100% - 32px);
+    animation: modalFadeIn ease 1s;
 }
 
 .modal-body {
@@ -387,4 +389,15 @@ line-height: 1.4;
 .modal-footer{
     padding: 16px;
     text-align: right;
+}
+
+@keyframes modalFadeIn {
+    from {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
