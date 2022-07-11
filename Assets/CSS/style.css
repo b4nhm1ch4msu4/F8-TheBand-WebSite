@@ -23,6 +23,10 @@ html {
     color: #fff !important; 
 }
 
+.icon-black {
+    color: #000;
+}
+
 #wrapper {
 
 }
@@ -120,7 +124,7 @@ html {
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url(/W3-template-WebSide/Assets/Img/chicago.jpg) top center / cover no-repeat;
+    background: url(/F8-TheBand-WebSite/Assets/Img/chicago.jpg) top center / cover no-repeat;
 }
 
 #Slider .text-content {
@@ -234,6 +238,153 @@ html {
     border-radius: 50%;
 }
 
+
+/* Place */
+.place-list {
+    margin-top: 32px -8px 48px;
+}
+
+.place-item {
+    float: left;
+    width: 33.3333%;
+    padding: 0 8px 0;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.4;
+}
+
+.place-body {
+    background-color: #fff;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.place-heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.place-time {
+margin-top: 15px;
+color: #757575;
+}
+
+.place-desc {
+margin-top: 15px;
+line-height: 1.4;
+}
+
+.place-Ticket-btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.place-Ticket-btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+
+
 #footer {
 
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal.open {
+    display: flex;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.modal-close:hover {
+    opacity: 1;
+    background-color: #f44336;
+}
+
+.modal-header {
+    background-color: #009688;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+}
+
+.modal-container {
+    position: relative;
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    max-width: calc(100% - 32px);
+}
+
+.modal-body {
+    padding: 16px;
+}
+
+.label-modal {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.modal-input {
+    border:1px #ccc solid;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#buy-tickets {
+    margin-top: 16px;
+    background-color: #009688;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 18px;
+}
+
+#buy-tickets:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.modal-footer{
+    padding: 16px;
+    text-align: right;
 }
