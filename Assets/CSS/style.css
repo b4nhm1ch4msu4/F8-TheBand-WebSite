@@ -168,7 +168,7 @@ html {
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url(/F8-TheBand-WebSite/Assets/Img/chicago.jpg) top center / cover no-repeat;
+    background: url(/Assets/Img/chicago.jpg) top center / cover no-repeat;
 }
 
 #Slider .text-content {
@@ -496,6 +496,7 @@ line-height: 1.4;
     padding: 16px;
     text-align: right;
 }
+
 
 @keyframes modalFadeIn {
     from {
